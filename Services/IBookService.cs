@@ -6,8 +6,8 @@ namespace reader.Services
 {
     public interface IBookService
     {
-        public Task Add(IBookModel book);
-        public Task Update(IBookModel book);
-        public Task Delete(IBookModel book);
+        public Task Add(IBook book);
+        public Task Update(IBook book);
+        public Task Delete(IBook book);
     }
 }

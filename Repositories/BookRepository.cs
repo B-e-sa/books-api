@@ -6,7 +6,7 @@ namespace reader.Repositories
 {
     public class BookRepository : IBookRepository
     {
-        public Task Add(BookModel book)
+        public Task Add(IBook book)
         {
             throw new NotImplementedException();
         }

@@ -15,7 +15,7 @@ public class BookController : ControllerBase
     }
 
     [HttpPost]
-    public async Task AddBook(BookModel book)
+    public async Task AddBook(IBook book)
     {
         await _bookService.Add(book);
     }

@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using reader.Models;
 
-namespace reader.Context
+namespace reader.Data
 {
     public class ReaderDbContext : DbContext
     {
@@ -9,6 +9,8 @@ namespace reader.Context
             : base(options)
         { }
 
-        public DbSet<BookModel> Books { get; set; }
+        public DbSet<IBook> Books { get; set; }
+
+        
     }
 }

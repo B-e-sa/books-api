@@ -1,7 +1,6 @@
-
 namespace reader.Models
 {
-    public class BookModel : IBookModel
+    public interface IBook
     {
         public int Id { get; set; }
         public string? Title { get; set; }

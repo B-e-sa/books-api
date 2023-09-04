@@ -4,9 +4,9 @@ using reader.Models;
 
 namespace reader.Context.Map
 {
-    public class BookMap : IEntityTypeConfiguration<IBookModel>
+    public class BookMap : IEntityTypeConfiguration<IBook>
     {
-        public void Configure(EntityTypeBuilder<IBookModel> builder)
+        public void Configure(EntityTypeBuilder<IBook> builder)
         {
             builder.HasKey(book => book.Id);
 

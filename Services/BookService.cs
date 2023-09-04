@@ -6,7 +6,7 @@ namespace reader.Services
 {
     public class BookService : IBookService
     {
-        public Task Add(IBookModel book)
+        public Task Add(IBook book)
         {
             if(book != null)
             {
@@ -15,7 +15,7 @@ namespace reader.Services
             throw new NotImplementedException();
         }
 
-        public Task Delete(IBookModel book)
+        public Task Delete(IBook book)
         {
             if(book != null)
             {
@@ -24,7 +24,7 @@ namespace reader.Services
             throw new NotImplementedException();
         }
 
-        public Task Update(IBookModel book)
+        public Task Update(IBook book)
         {
             if(book != null)
             {
