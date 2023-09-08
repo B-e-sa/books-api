@@ -1,8 +1,13 @@
 
+using System.ComponentModel.DataAnnotations;
+using System.Numerics;
+using reader.Enums;
+
 namespace reader.Models
 {
     public class Book : IBook
     {
+        [Key]
         public int Id { get; set; }
         public string? Title { get; set; }
         public string? Description { get; set; }
@@ -10,6 +15,8 @@ namespace reader.Models
         public string? Publisher { get; set; }
         public string? ReleaseDate { get; set; }
         public int? NumberOfPages { get; set; }
+        public string? ISBN { get; set; }
+        public ReadingStatus? ReadingStatus { get; set; }
         public DateTime AddedIn { get; set; } = DateTime.Now;
     }
 }

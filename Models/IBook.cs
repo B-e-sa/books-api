@@ -1,3 +1,5 @@
+using reader.Enums;
+
 namespace reader.Models
 {
     public interface IBook
@@ -9,6 +11,7 @@ namespace reader.Models
         public string? Publisher { get; set; }
         public string? ReleaseDate { get; set; }
         public int? NumberOfPages { get; set; }
+        public ReadingStatus? ReadingStatus { get; set; }
         public DateTime AddedIn { get; set; }
     }
 }
