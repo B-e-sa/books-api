@@ -10,7 +10,5 @@ namespace reader.Data
         { }
 
         public DbSet<IBook> Books { get; set; }
-
-        
     }
 }
