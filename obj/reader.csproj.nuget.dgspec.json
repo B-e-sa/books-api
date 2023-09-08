@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Joao\\desktop\\reader\\reader.csproj": {}
+    "c:\\Users\\Joao\\Desktop\\reader\\reader.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Joao\\desktop\\reader\\reader.csproj": {
+    "c:\\Users\\Joao\\Desktop\\reader\\reader.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Joao\\desktop\\reader\\reader.csproj",
+        "projectUniqueName": "c:\\Users\\Joao\\Desktop\\reader\\reader.csproj",
         "projectName": "reader",
-        "projectPath": "c:\\Users\\Joao\\desktop\\reader\\reader.csproj",
+        "projectPath": "c:\\Users\\Joao\\Desktop\\reader\\reader.csproj",
         "packagesPath": "C:\\Users\\Joao\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Joao\\desktop\\reader\\obj\\",
+        "outputPath": "c:\\Users\\Joao\\Desktop\\reader\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Joao\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -61,6 +61,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.10, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.4, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

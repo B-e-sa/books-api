@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wljEy+zO/iIEzuw4Qqc4R4Mo1T1nbhIBuqPpx6E00GHWkw/neWbpnVV5f5j2ANtISjgpJiZxyZ6uitfKVYjJZA==",
+  "dgSpecHash": "SJmBWTz+3uGdmUBo6YUkiqjwDtUWc0CfCu5t9NnPxIlaONBHmegX45XUy8+zAEe5qnVOrFlsEOb2eIsd8H9VpQ==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Joao\\desktop\\reader\\reader.csproj",
+  "projectFilePath": "c:\\Users\\Joao\\Desktop\\reader\\reader.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Joao\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Joao\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
@@ -45,6 +45,8 @@
     "C:\\Users\\Joao\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\Joao\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\Joao\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\Joao\\.nuget\\packages\\npgsql\\7.0.4\\npgsql.7.0.4.nupkg.sha512",
+    "C:\\Users\\Joao\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\7.0.4\\npgsql.entityframeworkcore.postgresql.7.0.4.nupkg.sha512",
     "C:\\Users\\Joao\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\Joao\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\Joao\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
