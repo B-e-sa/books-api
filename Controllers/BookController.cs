@@ -6,7 +6,7 @@ namespace reader.Controllers;
 [ApiController]
 [Route("[controller]")]
 public class BookController : ControllerBase
-{   
+{
     private readonly IBookService _bookService;
 
     public BookController(IBookService bookService)
@@ -15,7 +15,7 @@ public class BookController : ControllerBase
     }
 
     [HttpPost]
-    public async Task AddBook(IBook book)
+    public async Task AddBook(Book book)
     {
         await _bookService.Add(book);
     }

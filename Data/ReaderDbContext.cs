@@ -9,6 +9,6 @@ namespace reader.Data
             : base(options)
         { }
 
-        public DbSet<IBook> Books { get; set; }
+        public DbSet<Book> Books { get; set; }
     }
 }
