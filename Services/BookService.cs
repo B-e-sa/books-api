@@ -4,22 +4,27 @@ namespace reader.Services
 {
     public class BookService : IBookService
     {
-        public Task Get(Book book)
-        {
-            throw new NotImplementedException();
-        }
-
         public Task Add(Book book)
         {
             throw new NotImplementedException();
         }
 
-        public Task Delete(Book book)
+        public Task DeleteById(int id)
         {
             throw new NotImplementedException();
         }
 
-        public Task Update(Book book)
+        public Task FindById(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task FindByName(string name)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task UpdateById(int id)
         {
             throw new NotImplementedException();
         }

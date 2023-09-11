@@ -10,7 +10,7 @@ namespace reader.Repositories
             throw new NotImplementedException();
         }
 
-        public Task Delete(int id)
+        public Task DeleteById(int id)
         {
             throw new NotImplementedException();
         }
@@ -21,6 +21,11 @@ namespace reader.Repositories
         }
 
         public Task FindByName(string name)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task UpdateById(int id)
         {
             throw new NotImplementedException();
         }
